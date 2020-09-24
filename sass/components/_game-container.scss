@@ -1,0 +1,74 @@
+.game-container {
+  display: grid;
+  grid-column: 2/3;
+  grid-template-columns: 6vw repeat(4, 1fr);
+  grid-template-rows: 6vw repeat(4, 1fr);
+  grid-gap: 1rem;
+  background-color: $color-yellow;
+  color: $color-slate;
+  width: 90%;
+  margin: 5vw 5vw;
+  height: 50vw;
+  padding: 0;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.letter1 {
+  grid-column: 2/3;
+}
+
+.letter2 {
+  grid-column: 3/4;
+}
+
+.letter3 {
+  grid-column: 4/5;
+}
+
+.letter4 {
+  grid-column: 5/6;
+}
+
+.number1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.number2 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.number3 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.number4 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.game-tiles {
+  grid-row: 2/6;
+  grid-column: 2/6;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  justify-items: center;
+  align-items: center;
+}
+
+.showTiles {
+  display: grid;
+}

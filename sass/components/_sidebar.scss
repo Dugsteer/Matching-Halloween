@@ -1,0 +1,71 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1.5rem;
+
+  grid-row: 1/4;
+  grid-column: 1/2;
+  height: 100%;
+  width: 25vw;
+  z-index: 10;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+
+  @media only screen and (max-width:$bp-medium){
+    width: 30vw;
+  }
+
+  &__instructions {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+
+    ul,
+    li {
+      list-style-type: none;
+    }
+  }
+
+
+
+  &__close:hover::after {
+    color: $color-blue;
+  }
+
+  &__close::after {
+    content: 'x';
+    margin-left: 16vw;
+    font-size: 4vw;
+    color: $color-orange;
+  
+  }
+
+  &__set {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    height: auto;
+    transform: translateY(-0.5rem);
+    text-transform: uppercase;
+    background-color: $color-green;
+    color: $color-white;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-weight: bold;
+  }
+}
+
+.textHide {
+  display: none;
+  visibility: hidden;
+  padding: 0;
+}
+
+.moveSidebar {
+  display: none;
+  width: 0;
+  background-color: $color-light-grey;
+}

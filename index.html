@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Food memory matching - a pelmanism style game for learning English </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An ESL matching pelmanism game to practise food vocabulary online from the ESL-ology.com website. Click on the cards and match the pictures and names.">
+  <meta name="keywords" content="English teaching, online lessons, esl games, matching games, fun esl lessons, vocabulary games">
+  <link rel="icon" type="image/png"
+  href="https://www.google.com/s2/u/0/favicons?domain=https://esl-ology.com"
+/>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header class="nav-bar" id="navbar">
+        <a href="index.html" class="nav-bar__logo" id="header__logo">
+        <svg class="icon-header nav-bar__logo-img">
+          <use xlink:href="sprite.svg#Buho" onclick="scrollUp()">
+          </use>
+        </svg></a>
+    <h3 class="nav-bar__title">Esl-Ology.Com</h3>
+    <div class="nav-bar__title-page">
+      <img src="./img/burger1.png" alt="banana" class="nav-bar__title-page-deco">
+      <span class="nav-bar__title-page-main" id="pageTitle">FOOD MATCH: SET 1</span>
+  <img src="./img/grapes1.png" alt="grapes" class="nav-bar__title-page-deco">
+</div>
+<div class="nav-bar__links">
+  <a href="#" class="nav-bar__link link1" id="howToPlay" onclick="openSidebar()">Choose Sets</a>
+  <a href="#" class="nav-bar__link link2" id="startButton">New Game</a>
+  <a href="index.html" class="nav-bar__link link3">Home</a>
+</div>
+</header>
+   
+
+
+<div class="content" id="content">
+
+  <div class="sidebar moveSidebar" id="sidebar">
+    <!-- <i class="fas fa-times sidebar__close" aria-hidden="true" id="close"></i> -->
+    <h3 class="sidebar__close" id="sidebarClose" onclick="openSidebar()"></h3>
+    <h1 class="sidebar__title">FOOD MATCH</h1>
+    <h2 class="sidebar__subtitle">How to Play</h2>
+    <ul class="sidebar__instructions">
+      <li>Click on two cards to reveal pictures and names of vehicles.</li>
+      <li>ABCE and 1234 can be used to identify cards when the game is used on a big screen. </li>
+      <Click>The cards are shuffled during each game. Click the buttons to change the sets.</li>
+        
+    </ul>
+ 
+ <div class="sidebar__choices">
+    <button class="sidebar__set" id="set1">Set 1</button>
+    <p>apple, banana, bread, burger, cake, carrot, chicken, chips</p>
+
+
+    <button class="sidebar__set" id="set2">Set 2</button>
+    <p>donut, eggs, fish, grapes, honey, ice cream, jam, kiwi </p>
+
+ 
+    <button class="sidebar__set" id="set3">Set 3</button>
+    <p>lettuce, mushroom, nuts, onions, pizza, potato, spaghetti, tomato</p>
+  </div>
+</div>
+
+
+  <div class="fun-top fun"></div>
+
+  <div class="game-container"> 
+    <div class="empty"></div>
+    <div class="h4 letter1">A</div>
+    <div class="h4 letter2">B</div>
+    <div class="h4 letter3">C</div>
+    <div class="h4 letter4">D</div>
+    <div class="empty"></div>
+    <div class="h4 number1">1</div>
+    <div class="h4 number2">2</div>
+    <div class="h4 number3">3</div>
+    <div class="h4 number4">4</div>
+
+    <div class="game-tiles game-tiles1 showTiles" id="game-tiles"></div>
+
+
+
+
+  </div>
+
+  <div class="fun-bottom fun"></div>
+
+</div>
+
+
+<footer class="footer">
+  <div class="footer__copyright" id="footer">
+    <p>© 2020 Copyright Esl-ology.com & copyright owners.</p>
+    <p>Vectors & images
+by <a href="https://www.vecteezy.com">Vecteezy</a>&nbsp&nbsp<a href="https://pixabay.com">Pixabay</a>&nbsp&nbsp<a
+  href="https://unsplash.com">Unsplash </a>etc. Thanks,guys!</p>
+</div>
+</footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
