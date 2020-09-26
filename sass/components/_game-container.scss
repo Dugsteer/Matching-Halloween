@@ -1,12 +1,14 @@
 .game-container {
   display: grid;
   grid-column: 2/3;
+  grid-row: 2/3;
   grid-template-columns: 6vw repeat(4, 1fr);
   grid-template-rows: 6vw repeat(4, 1fr);
   grid-gap: 1rem;
-  background-color: $color-yellow;
-  color: $color-slate;
-  width: 90%;
+  background-color: $color-halloween;
+  color:$color-halloween-white;
+  width: 800px;
+  height: 500px;
   margin: 5vw 5vw;
   height: 50vw;
   padding: 0;
@@ -16,6 +18,7 @@
   font-size: 2rem;
   justify-items: center;
   align-items: center;
+  align-self: center;
 }
 
 .letter1 {
@@ -72,3 +75,4 @@
 .showTiles {
   display: grid;
 }
+

@@ -1,21 +1,12 @@
 .card {
   width: 80%;
   height: 60%;
-  background-color: $color-yellow;
+  background-color: $color-halloween;
   position: relative;
   border: none;
   margin: 2% 3%;
 }
 
-
-.cardb {
-  width: 80%;
-  height: 60%;
-  background-color: $color-blue;
-  position: relative;
-  border: none;
-  margin: 2% 3%;
-}
 
 .memory-card {
   width: 100%;
@@ -70,7 +61,7 @@ imgBg.smaller {
   text-align: center;
   // padding: 1vw;
   position: absolute;
-  background: $color-green;
+  background: $color-halloween-orange;
   transform: rotateX(0deg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -83,7 +74,7 @@ imgBg.smaller {
 .front-face {
   transform: rotateX(0deg);
   transform: rotateY(180deg);
-  background-color: lightyellow;
+  background-color: #e8e4c9;
   color: $color-slate;
   line-height: 2rem;
 }

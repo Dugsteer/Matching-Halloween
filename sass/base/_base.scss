@@ -22,15 +22,28 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background: $color-light-grey;
-}
+  background-color: #fff;
+
+  @media only screen and (max-width:$bp-largest){
+    background-color: $color-light-grey;
+   }
+ }
+
 
 .content {
-  width: 90vw;
+  width: 90%;
   display: grid;
   align-items: center;
   justify-content: center;
-  margin: 0 5vw;
-  grid-template-rows: 10vw 1fr 10vw;
-  grid-template-columns: auto minmax(0, 1fr);
+  background-color: $color-white;
+  margin: 0 auto;
+  grid-template-rows: 
+  3fr 3fr 3fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  background-color: $color-light-grey;
+
+  @media only screen and (max-width:$bp-medium){
+    grid-template-rows: 2fr 2fr 2fr;
+  }
 }
