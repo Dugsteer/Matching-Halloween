@@ -20,8 +20,8 @@ const set1 = [
     number: "2",
     name: "<img src = 'img/bone.svg' alt='bone' class='image'>",
   },
-  { number: "3", name: "broomstick" },
-  { number: "3", name: "<img src = 'img/broomstick.svg' alt='broomstick' class='image'>" },
+  { number: "3", name: "broom" },
+  { number: "3", name: "<img src = 'img/broom.svg' alt='broom' class='image'>" },
   { number: "4", name: "werewolf" },
   {
     number: "4",
@@ -61,10 +61,10 @@ const set2 = [
     number: "11",
     name: "<img src = 'img/fangs.svg' alt='fangs' class='image'>",
   },
-  { number: "12", name: "Frankenstein" },
+  { number: "12", name: "frank" },
   {
     number: "12",
-    name: "<img src = 'img/Frankenstein.svg' alt='Frankenstein' class='image'>",
+    name: "<img src = 'img/frank.svg' alt='frank' class='image'>",
   },
   { number: "13", name: "ghost" },
   {
@@ -174,7 +174,7 @@ function playGame(array) {
     card.classList.add("card");
 //  Include the data-famework (data.number) of the cards so they can be checked plus the necessary HTML.
 
-    card.innerHTML = `<div class="memory-card" tabindex=0 data-framework="${data.number}"><div class="front-face">${data.name}</div><div class="back-face"><img src = "img/web.svg" alt="picture of a basket of food" class="imgBg smaller" id="imgBg"></div></div>`;
+    card.innerHTML = `<div class="memory-card" tabindex=0 data-framework="${data.number}"><div class="front-face">${data.name}</div><div class="back-face"><img src = "img/tombstone.png" alt="picture of a basket of food" class="imgBg smaller" id="imgBg"></div></div>`;
 
     // Append the card divs to the game container so they appear on the page.
     gameContainer.appendChild(card);

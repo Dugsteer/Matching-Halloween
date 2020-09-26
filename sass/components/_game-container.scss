@@ -5,12 +5,11 @@
   grid-template-columns: 6vw repeat(4, 1fr);
   grid-template-rows: 6vw repeat(4, 1fr);
   grid-gap: 1rem;
-  background-color: $color-halloween;
+  background-color: $color-halloween-green;
   color:$color-halloween-white;
-  width: 800px;
-  height: 500px;
   margin: 5vw 5vw;
-  height: 50vw;
+  width: 60vw;
+  height: 60vw;
   padding: 0;
   border-radius: 0.5rem;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);

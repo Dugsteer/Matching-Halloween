@@ -1,12 +1,11 @@
 .card {
-  width: 80%;
-  height: 60%;
-  background-color: $color-halloween;
+  width: 52%;
+  height: 73%;
+  background-color: $color-halloween-green;
   position: relative;
   border: none;
   margin: 2% 3%;
 }
-
 
 .memory-card {
   width: 100%;
@@ -41,12 +40,12 @@ img.image {
 .imgBg {
   -o-object-fit: cover;
   object-fit: cover;
-  width: 30%;
+  height: 120%;
   margin-top: .5rem;
 }
 
 imgBg.smaller {
-  width: 80%;
+ width: 400px;
 }
 
 
@@ -61,7 +60,7 @@ imgBg.smaller {
   text-align: center;
   // padding: 1vw;
   position: absolute;
-  background: $color-halloween-orange;
+  background: $color-halloween-green;
   transform: rotateX(0deg);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -74,7 +73,10 @@ imgBg.smaller {
 .front-face {
   transform: rotateX(0deg);
   transform: rotateY(180deg);
-  background-color: #e8e4c9;
-  color: $color-slate;
+  background-color: rgb(163, 95, 95);
+    color: $color-halloween-white;
   line-height: 2rem;
+  font-weight: normal;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
 }
